@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9C296CF1AB04F9B00D4C670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296CE1AB04F9B00D4C670 /* AppDelegate.swift */; };
+		D9C296D11AB04F9B00D4C670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296D01AB04F9B00D4C670 /* ViewController.swift */; };
+		D9C296D41AB04F9B00D4C670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C296D21AB04F9B00D4C670 /* Main.storyboard */; };
+		D9C296D61AB04F9B00D4C670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C296D51AB04F9B00D4C670 /* Images.xcassets */; };
+		D9C296D91AB04F9B00D4C670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C296D71AB04F9B00D4C670 /* LaunchScreen.xib */; };
+		D9C296E51AB04F9B00D4C670 /* Dynamic_Controls_Example_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296E41AB04F9B00D4C670 /* Dynamic_Controls_Example_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9C296DF1AB04F9B00D4C670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9C296C11AB04F9B00D4C670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C296C81AB04F9B00D4C670;
+			remoteInfo = "Dynamic Controls Example App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9C296C91AB04F9B00D4C670 /* Dynamic Controls Example App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Controls Example App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C296CD1AB04F9B00D4C670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C296CE1AB04F9B00D4C670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9C296D01AB04F9B00D4C670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9C296D31AB04F9B00D4C670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9C296D51AB04F9B00D4C670 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9C296D81AB04F9B00D4C670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D9C296DE1AB04F9B00D4C670 /* Dynamic Controls Example AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic Controls Example AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C296E31AB04F9B00D4C670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C296E41AB04F9B00D4C670 /* Dynamic_Controls_Example_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_Controls_Example_AppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9C296C61AB04F9B00D4C670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C296DB1AB04F9B00D4C670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9C296C01AB04F9B00D4C670 = {
+			isa = PBXGroup;
+			children = (
+				D9C296CB1AB04F9B00D4C670 /* Dynamic Controls Example App */,
+				D9C296E11AB04F9B00D4C670 /* Dynamic Controls Example AppTests */,
+				D9C296CA1AB04F9B00D4C670 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9C296CA1AB04F9B00D4C670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9C296C91AB04F9B00D4C670 /* Dynamic Controls Example App.app */,
+				D9C296DE1AB04F9B00D4C670 /* Dynamic Controls Example AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9C296CB1AB04F9B00D4C670 /* Dynamic Controls Example App */ = {
+			isa = PBXGroup;
+			children = (
+				D9C296CE1AB04F9B00D4C670 /* AppDelegate.swift */,
+				D9C296D01AB04F9B00D4C670 /* ViewController.swift */,
+				D9C296D21AB04F9B00D4C670 /* Main.storyboard */,
+				D9C296D51AB04F9B00D4C670 /* Images.xcassets */,
+				D9C296D71AB04F9B00D4C670 /* LaunchScreen.xib */,
+				D9C296CC1AB04F9B00D4C670 /* Supporting Files */,
+			);
+			path = "Dynamic Controls Example App";
+			sourceTree = "<group>";
+		};
+		D9C296CC1AB04F9B00D4C670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9C296CD1AB04F9B00D4C670 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9C296E11AB04F9B00D4C670 /* Dynamic Controls Example AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C296E41AB04F9B00D4C670 /* Dynamic_Controls_Example_AppTests.swift */,
+				D9C296E21AB04F9B00D4C670 /* Supporting Files */,
+			);
+			path = "Dynamic Controls Example AppTests";
+			sourceTree = "<group>";
+		};
+		D9C296E21AB04F9B00D4C670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9C296E31AB04F9B00D4C670 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9C296C81AB04F9B00D4C670 /* Dynamic Controls Example App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C296E81AB04F9B00D4C670 /* Build configuration list for PBXNativeTarget "Dynamic Controls Example App" */;
+			buildPhases = (
+				D9C296C51AB04F9B00D4C670 /* Sources */,
+				D9C296C61AB04F9B00D4C670 /* Frameworks */,
+				D9C296C71AB04F9B00D4C670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Controls Example App";
+			productName = "Dynamic Controls Example App";
+			productReference = D9C296C91AB04F9B00D4C670 /* Dynamic Controls Example App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9C296DD1AB04F9B00D4C670 /* Dynamic Controls Example AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C296EB1AB04F9B00D4C670 /* Build configuration list for PBXNativeTarget "Dynamic Controls Example AppTests" */;
+			buildPhases = (
+				D9C296DA1AB04F9B00D4C670 /* Sources */,
+				D9C296DB1AB04F9B00D4C670 /* Frameworks */,
+				D9C296DC1AB04F9B00D4C670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C296E01AB04F9B00D4C670 /* PBXTargetDependency */,
+			);
+			name = "Dynamic Controls Example AppTests";
+			productName = "Dynamic Controls Example AppTests";
+			productReference = D9C296DE1AB04F9B00D4C670 /* Dynamic Controls Example AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9C296C11AB04F9B00D4C670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Yetii Ltd.";
+				TargetAttributes = {
+					D9C296C81AB04F9B00D4C670 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D9C296DD1AB04F9B00D4C670 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D9C296C81AB04F9B00D4C670;
+					};
+				};
+			};
+			buildConfigurationList = D9C296C41AB04F9B00D4C670 /* Build configuration list for PBXProject "Dynamic Controls Example App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9C296C01AB04F9B00D4C670;
+			productRefGroup = D9C296CA1AB04F9B00D4C670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9C296C81AB04F9B00D4C670 /* Dynamic Controls Example App */,
+				D9C296DD1AB04F9B00D4C670 /* Dynamic Controls Example AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9C296C71AB04F9B00D4C670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C296D41AB04F9B00D4C670 /* Main.storyboard in Resources */,
+				D9C296D91AB04F9B00D4C670 /* LaunchScreen.xib in Resources */,
+				D9C296D61AB04F9B00D4C670 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C296DC1AB04F9B00D4C670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9C296C51AB04F9B00D4C670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C296D11AB04F9B00D4C670 /* ViewController.swift in Sources */,
+				D9C296CF1AB04F9B00D4C670 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C296DA1AB04F9B00D4C670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C296E51AB04F9B00D4C670 /* Dynamic_Controls_Example_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9C296E01AB04F9B00D4C670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C296C81AB04F9B00D4C670 /* Dynamic Controls Example App */;
+			targetProxy = D9C296DF1AB04F9B00D4C670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9C296D21AB04F9B00D4C670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C296D31AB04F9B00D4C670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9C296D71AB04F9B00D4C670 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C296D81AB04F9B00D4C670 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9C296E61AB04F9B00D4C670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9C296E71AB04F9B00D4C670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9C296E91AB04F9B00D4C670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dynamic Controls Example App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9C296EA1AB04F9B00D4C670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dynamic Controls Example App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9C296EC1AB04F9B00D4C670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dynamic Controls Example AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Controls Example App.app/Dynamic Controls Example App";
+			};
+			name = Debug;
+		};
+		D9C296ED1AB04F9B00D4C670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dynamic Controls Example AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Controls Example App.app/Dynamic Controls Example App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9C296C41AB04F9B00D4C670 /* Build configuration list for PBXProject "Dynamic Controls Example App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C296E61AB04F9B00D4C670 /* Debug */,
+				D9C296E71AB04F9B00D4C670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C296E81AB04F9B00D4C670 /* Build configuration list for PBXNativeTarget "Dynamic Controls Example App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C296E91AB04F9B00D4C670 /* Debug */,
+				D9C296EA1AB04F9B00D4C670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9C296EB1AB04F9B00D4C670 /* Build configuration list for PBXNativeTarget "Dynamic Controls Example AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C296EC1AB04F9B00D4C670 /* Debug */,
+				D9C296ED1AB04F9B00D4C670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9C296C11AB04F9B00D4C670 /* Project object */;
+}
