@@ -1,0 +1,3 @@
+[submodule "frameworks/DynamicControls"]
+	path = frameworks/DynamicControls
+	url = https://github.com/YetiiNet/DynamicControls.git

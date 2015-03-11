@@ -13,6 +13,16 @@
 		D9C296D61AB04F9B00D4C670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C296D51AB04F9B00D4C670 /* Images.xcassets */; };
 		D9C296D91AB04F9B00D4C670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C296D71AB04F9B00D4C670 /* LaunchScreen.xib */; };
 		D9C296E51AB04F9B00D4C670 /* Dynamic_Controls_Example_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296E41AB04F9B00D4C670 /* Dynamic_Controls_Example_AppTests.swift */; };
+		D9C296FA1AB0500C00D4C670 /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F01AB0500C00D4C670 /* DynamicTableViewCell.swift */; };
+		D9C296FB1AB0500C00D4C670 /* DynamicTableViewCellAsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F11AB0500C00D4C670 /* DynamicTableViewCellAsButton.swift */; };
+		D9C296FC1AB0500C00D4C670 /* DynamicTableViewCellContentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F21AB0500C00D4C670 /* DynamicTableViewCellContentKey.swift */; };
+		D9C296FD1AB0500C00D4C670 /* DynamicTableViewCellWithSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F31AB0500C00D4C670 /* DynamicTableViewCellWithSwitch.swift */; };
+		D9C296FE1AB0500C00D4C670 /* DynamicTableViewCellWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F41AB0500C00D4C670 /* DynamicTableViewCellWithTextField.swift */; };
+		D9C296FF1AB0500C00D4C670 /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F51AB0500C00D4C670 /* DynamicTableViewController.swift */; };
+		D9C297001AB0500C00D4C670 /* DynamicTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F61AB0500C00D4C670 /* DynamicTableViewHeaderFooterView.swift */; };
+		D9C297011AB0500C00D4C670 /* DynamicTypeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F71AB0500C00D4C670 /* DynamicTypeLabel.swift */; };
+		D9C297021AB0500C00D4C670 /* DynamicTypeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F81AB0500C00D4C670 /* DynamicTypeSegmentedControl.swift */; };
+		D9C297031AB0500C00D4C670 /* DynamicTypeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C296F91AB0500C00D4C670 /* DynamicTypeTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		D9C296DE1AB04F9B00D4C670 /* Dynamic Controls Example AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic Controls Example AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C296E31AB04F9B00D4C670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9C296E41AB04F9B00D4C670 /* Dynamic_Controls_Example_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_Controls_Example_AppTests.swift; sourceTree = "<group>"; };
+		D9C296F01AB0500C00D4C670 /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTableViewCell.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTableViewCell.swift; sourceTree = "<group>"; };
+		D9C296F11AB0500C00D4C670 /* DynamicTableViewCellAsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTableViewCellAsButton.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTableViewCellAsButton.swift; sourceTree = "<group>"; };
+		D9C296F21AB0500C00D4C670 /* DynamicTableViewCellContentKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTableViewCellContentKey.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTableViewCellContentKey.swift; sourceTree = "<group>"; };
+		D9C296F31AB0500C00D4C670 /* DynamicTableViewCellWithSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTableViewCellWithSwitch.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTableViewCellWithSwitch.swift; sourceTree = "<group>"; };
+		D9C296F41AB0500C00D4C670 /* DynamicTableViewCellWithTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTableViewCellWithTextField.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTableViewCellWithTextField.swift; sourceTree = "<group>"; };
+		D9C296F51AB0500C00D4C670 /* DynamicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTableViewController.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTableViewController.swift; sourceTree = "<group>"; };
+		D9C296F61AB0500C00D4C670 /* DynamicTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTableViewHeaderFooterView.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		D9C296F71AB0500C00D4C670 /* DynamicTypeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTypeLabel.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTypeLabel.swift; sourceTree = "<group>"; };
+		D9C296F81AB0500C00D4C670 /* DynamicTypeSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTypeSegmentedControl.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTypeSegmentedControl.swift; sourceTree = "<group>"; };
+		D9C296F91AB0500C00D4C670 /* DynamicTypeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicTypeTextField.swift; path = frameworks/DynamicControls/DynamicControls/DynamicTypeTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,7 @@
 		D9C296C01AB04F9B00D4C670 = {
 			isa = PBXGroup;
 			children = (
+				D9C296EE1AB04FE200D4C670 /* Frameworks */,
 				D9C296CB1AB04F9B00D4C670 /* Dynamic Controls Example App */,
 				D9C296E11AB04F9B00D4C670 /* Dynamic Controls Example AppTests */,
 				D9C296CA1AB04F9B00D4C670 /* Products */,
@@ -110,6 +131,31 @@
 				D9C296E31AB04F9B00D4C670 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9C296EE1AB04FE200D4C670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9C296EF1AB04FE700D4C670 /* Dynamic Controls */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9C296EF1AB04FE700D4C670 /* Dynamic Controls */ = {
+			isa = PBXGroup;
+			children = (
+				D9C296F01AB0500C00D4C670 /* DynamicTableViewCell.swift */,
+				D9C296F11AB0500C00D4C670 /* DynamicTableViewCellAsButton.swift */,
+				D9C296F21AB0500C00D4C670 /* DynamicTableViewCellContentKey.swift */,
+				D9C296F31AB0500C00D4C670 /* DynamicTableViewCellWithSwitch.swift */,
+				D9C296F41AB0500C00D4C670 /* DynamicTableViewCellWithTextField.swift */,
+				D9C296F51AB0500C00D4C670 /* DynamicTableViewController.swift */,
+				D9C296F61AB0500C00D4C670 /* DynamicTableViewHeaderFooterView.swift */,
+				D9C296F71AB0500C00D4C670 /* DynamicTypeLabel.swift */,
+				D9C296F81AB0500C00D4C670 /* DynamicTypeSegmentedControl.swift */,
+				D9C296F91AB0500C00D4C670 /* DynamicTypeTextField.swift */,
+			);
+			name = "Dynamic Controls";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +258,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C296FC1AB0500C00D4C670 /* DynamicTableViewCellContentKey.swift in Sources */,
+				D9C297031AB0500C00D4C670 /* DynamicTypeTextField.swift in Sources */,
+				D9C296FE1AB0500C00D4C670 /* DynamicTableViewCellWithTextField.swift in Sources */,
+				D9C296FD1AB0500C00D4C670 /* DynamicTableViewCellWithSwitch.swift in Sources */,
+				D9C296FA1AB0500C00D4C670 /* DynamicTableViewCell.swift in Sources */,
+				D9C297011AB0500C00D4C670 /* DynamicTypeLabel.swift in Sources */,
+				D9C297021AB0500C00D4C670 /* DynamicTypeSegmentedControl.swift in Sources */,
+				D9C296FB1AB0500C00D4C670 /* DynamicTableViewCellAsButton.swift in Sources */,
+				D9C297001AB0500C00D4C670 /* DynamicTableViewHeaderFooterView.swift in Sources */,
 				D9C296D11AB04F9B00D4C670 /* ViewController.swift in Sources */,
+				D9C296FF1AB0500C00D4C670 /* DynamicTableViewController.swift in Sources */,
 				D9C296CF1AB04F9B00D4C670 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
